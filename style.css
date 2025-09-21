@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card.blue { background: #007bff; color: white; }
+.card.orange { background: #fd7e14; color: white; }
+.card.green { background: #28a745; color: white; }
+.card.purple { background: #6f42c1; color: white; }
+.card.violet { background: #6610f2; color: white; }
+
+.auth-form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form input, .auth-form button {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.auth-form button {
+  background: #003366;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background: #0055aa;
+}
+
+.card-bod{
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card-img-top{
+
+  size: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background: url('/Users/chaitanya/Downloads/dxb_tours_site/Images/Dubaibg2.jpeg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  ; /* dark overlay */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 500px;
+  padding: 15px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.btn {
+  background: #fcb900;
+  color: #000;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ffdd55;
+}
